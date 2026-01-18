@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://crqv1jowwdygs"]
 
 [ext_resource type="Texture2D" uid="uid://ejafbv8nbnce" path="res://images/Screenshot 2026-01-15 at 5.54.22 PM.png" id="1_ekxnf"]
-[ext_resource type="Script" uid="uid://byp8iq0v5dy2" path="res://scenes/main_menu.gd" id="1_wu84c"]
+[ext_resource type="Script" uid="uid://byp8iq0v5dy2" path="res://scripts/main_menu.gd" id="1_wu84c"]
 [ext_resource type="FontFile" uid="uid://dbhahgacwx5ew" path="res://assets/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf" id="2_bqqt6"]
 [ext_resource type="FontFile" uid="uid://qx5kx4udb7ea" path="res://assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="2_wu84c"]
 

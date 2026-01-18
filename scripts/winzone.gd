@@ -3,12 +3,10 @@ extends Area2D
 @onready var timer: Timer = $Timer
 
 func _on_body_entered(body: Node2D) -> void:
-	print("You died!") # Replace with function body.
 	Engine.time_scale = 0.5
-	#body.get_node("CollisionShape2D").queue_free() # player falls off screen when die
 	timer.start()
-
+	
 
 func _on_timer_timeout() -> void:
 	Engine.time_scale = 1
-	get_tree().reload_current_scene()
+	get_tree().change_scene_to_file("res://scenes/main_menu.tscn") # Replace with function body.
