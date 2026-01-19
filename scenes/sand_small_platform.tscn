@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d3bwxiq6g4k71" path="res://assets/brackeys_platformer_assets/sprites/platforms.png" id="1_a5gur"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u5fa4"]
-size = Vector2(32, 8)
+size = Vector2(16, 8)
 
 [node name="Sand_small_platform" type="AnimatableBody2D"]
 
